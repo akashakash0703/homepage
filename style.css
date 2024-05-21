@@ -1,0 +1,379 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "sans-serif";
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  /*max-width: fit-content;*/
+  margin-top: 5px;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  margin-top: 5px;
+  padding: 10px;
+}
+.three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  font-family: "poppins";
+  margin: 20px;
+}
+.akash {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: fit-content;
+  margin-top: 5px;
+}
+.akash div {
+  padding: 8px;
+}
+.ban img {
+  width: 100%;
+  position: relative;
+}
+.ban h3 {
+  position: absolute;
+  left: 42%;
+  top: 33%;
+  font-size: 25px;
+}
+.ban h2 {
+  position: absolute;
+  top: 38%;
+  left: 36%;
+  font-size: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.ban p {
+  position: absolute;
+  top: 48%;
+  left: 30%;
+  color: white;
+}
+.ban a {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  font-size: medium;
+  margin-top: 10px;
+}
+.wel {
+  text-align: center;
+  padding-top: 45px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px;
+  margin-top: 10px;
+}
+#two,
+#four {
+  position: relative;
+  padding: 5px;
+  display: flex;
+  height: 380px;
+  width: 380px;
+}
+#three {
+  position: relative;
+  padding: 5px;
+  display: flex;
+  height: 380px;
+  width: 540px;
+  margin-left: 25px;
+}
+#two h2 {
+  position: absolute;
+  top: 45%;
+  left: 28%;
+  background-color: white;
+  padding: 8px 25px;
+}
+#three h1 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-size: 45px;
+}
+#three p {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+#three a {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#four h2 {
+  position: absolute;
+  top: 45%;
+  left: 27%;
+  padding: 8px 25px;
+  background-color: white;
+  color: solid black;
+}
+.pro {
+  text-align: center;
+}
+.pro p {
+  font-size: 20px;
+}
+.pro h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  gap: 20px;
+  margin-top: 30px;
+  margin-top: 20px;
+}
+.prodct img {
+  width: 320px;
+}
+.prodct :hover {
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+}
+#time {
+  position: relative;
+}
+#time p1 {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  background-color: white;
+  padding: 3px 15px;
+}
+#time p2 {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 22px;
+  color: gray;
+}
+/*#crt{
+  position: relative;
+}
+#crt .caa{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: fit-content;
+  margin-top: 5px;
+  }*/
+.p3 {
+  position: relative;
+}
+.p3 p6 {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+.p4 {
+  position: relative;
+}
+.p4 p1 {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  background-color: white;
+  padding: 3px 15px;
+}
+.p8 {
+  position: relative;
+}
+.p8 p1 {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  background-color: white;
+  padding: 3px 15px;
+}
+.p8 p2 {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 22px;
+  color: gray;
+}
+.p6 {
+  position: relative;
+}
+.p6 p1 {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+.view {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: small;
+}
+.view a {
+  text-decoration: underline;
+  color: gray;
+}
+.user {
+  height: 350px;
+  background-color: rgb(238, 236, 236);
+  margin: 30px auto;
+  width: 100%;
+}
+#user {
+  margin-bottom: 50px;
+}
+.use1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+.user1 {
+  clip-path: circle();
+  width: 90px;
+  height: 90px;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+.user2 {
+  clip-path: circle();
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 100;
+  height: 100;
+}
+.user3 {
+  clip-path: circle();
+  width: 90px;
+  height: 90px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.cont {
+  text-align: center;
+  line-height: 25px;
+}
+.cont h3 {
+  margin-top: 20px;
+}
+#blog {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+#blog p {
+  margin: 8px;
+  line-height: 28px;
+}
+#blog h1 {
+  margin-bottom: 20px;
+}
+.blogs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  gap: 20px;
+  margin-top: 30px;
+  margin-top: 20px;
+}
+.blog img {
+  width: 400px;
+}
+#blo {
+  background-color: white;
+  padding: 20px;
+}
+#blo p1 {
+  font-size: 13px;
+  line-height: 25px;
+}
+.blog :hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+.last {
+  display: flex;
+  justify-content: center;
+}
+.last li {
+  padding: 15px;
+}
+#lats {
+  display: flex;
+  justify-content: center;
+}
+#lats li {
+  padding: 15px;
+  margin-top: 5px;
+}
+#hot {
+  text-align: center;
+}
+.yoga {
+  margin-top: 20px;
+  background-color: rgb(238, 236, 236);
+  margin-top: 50px;
+  height: 350px;
+}
+.yoga h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+.yoga form {
+  text-align: center;
+  margin: 20px 10px;
+}
+input {
+  width: 300px;
+  height: 25px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+.icon i {
+  padding:10px ;
+} 
