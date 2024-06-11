@@ -7,6 +7,7 @@ body {
   font-family: "Poppins", "sans-serif";
   margin: 0px;
   padding: 0px;
+  font-size: 16px;
 }
 .logo {
   /*max-width: fit-content;*/
@@ -52,7 +53,7 @@ li {
   position: absolute;
   left: 42%;
   top: 33%;
-  font-size: 25px;
+  font-size:25px;
 }
 .ban h2 {
   position: absolute;
@@ -84,10 +85,10 @@ li {
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap:30px;
   width: 100%;
-  padding: 50px;
+  padding: 30px;
   margin-top: 10px;
 }
 #two,
@@ -155,10 +156,10 @@ li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 90vw;
   gap: 20px;
+  margin-left: 100px;
   margin-top: 30px;
-  margin-top: 20px;
 }
 .prodct img {
   width: 320px;
